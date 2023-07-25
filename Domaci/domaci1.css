@@ -1,0 +1,49 @@
+#slika{
+    width: 75px;
+    height: 75px;
+}
+
+body{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hd{
+    background-color: white;
+    color: black;
+    display: flex;
+    position: relative;
+
+}
+
+.pauza{
+    margin: 30px 15px 10px 15px;
+    font-size: medium;
+    
+}
+
+#sp{
+    background-color: #04AA6D;
+    width: 112px;
+    color: black;
+    border-radius: 25px;
+    line-height: 1.5;
+    padding-left: 39px;
+    position: relative;
+    z-index: 4;
+    font-size: 16px;
+    margin: 30px 15px 10px 15px;
+    list-style-type: none;
+}
+
+#naslov{
+    text-align: center;
+    color: white;
+}
+
+.glavni{
+    max-width: 800px;
+}

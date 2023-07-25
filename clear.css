@@ -1,0 +1,22 @@
+.div1{
+    float: left;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.div2{
+    padding: 10px;
+    border: 3px solid lightgreen;
+}
+
+.div3{
+    float: left;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.div4{
+    padding: 10px;
+    border: 3px solid lightgreen;
+    clear: left;
+}

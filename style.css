@@ -1,0 +1,22 @@
+
+.div1{
+    color: black;
+    background-color: lightblue;
+    width: 30%;
+    height: 300px;
+    margin: 20px auto;
+    padding: 40px 100px 20px 200px;
+}
+.div2{
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+    width: 35%;
+    height: 300px;
+    margin-top: 50px;
+    margin: auto;
+    min-width: 25%;
+    padding: 30px 100px 5px 100px;
+    outline: dashed 3px green;
+}

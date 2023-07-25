@@ -1,0 +1,42 @@
+div{
+    float: left;
+    padding: 10px;
+}
+
+.div1{
+    background-color: aqua;
+    color: blue;
+}
+
+.div2{
+    background-color: brown;
+    color: red;
+}
+
+.div3{
+    background-color: lightgreen;
+    color: green;
+}
+
+.div11{
+    float: left;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.div22{
+    padding: 10px;
+    border: 3px solid lightgreen;
+}
+
+.div33{
+    float: left;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.div44{
+    padding: 10px;
+    border: 3px solid lightgreen;
+    clear: left;
+}
