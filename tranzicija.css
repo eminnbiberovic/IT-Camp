@@ -1,0 +1,59 @@
+.div1{
+    display: flex;
+    width: 500px;
+    height: 150px;
+    background-color: brown;
+    margin: auto;
+    border-radius: 20px;
+    animation-name: pomeranje;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes pomeranje{
+    50%{
+        transform: translateY(150px);
+        width: 75px;
+        background-color: darkblue;
+    }
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+button{
+  background-color: #4de68d;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 15%;
+  transition: 1.4s;
+}
+
+button:hover{
+    transform: translateY(-15px);
+    box-shadow: 5px 5px 20px blue;
+}
