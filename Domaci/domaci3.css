@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    height:100vh;
+    background-color:rgb(236,240,241);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+
+.span1{
+    display: flex;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: rgb(85,85,85);
+    margin-left: 25px;
+    animation: ease-in-out;
+    animation-name: loading1;
+    animation-duration: 1.18s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes loading1{
+    25%{
+        width: 40px;
+        height: 40px;
+    }
+
+    50%{
+        width: 33px;
+        height: 33px;
+    }
+    75%{
+        width: 24px;
+        height: 24px;
+        
+    }
+}
+
+.span2{
+    display: flex;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: rgb(85,85,85);
+    margin-left: 25px;
+    animation: ease-in-out;
+    animation-name: loading2;
+    animation-duration: 1.18s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes loading2{
+    25%{
+        width: 40px;
+        height: 40px;
+    }
+
+    50%{
+        width: 33px;
+        height: 33px;
+    }
+
+    75%{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.span3{
+    display: flex;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: rgb(85,85,85);
+    margin-left: 25px;
+    animation: ease-in-out;
+    animation-name: loading3;
+    animation-duration: 1.18s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+}
+
+@keyframes loading3{
+    25%{
+        width: 40px;
+        height: 40px;
+    }
+
+    50%{
+        width: 33px;
+        height: 33px;
+    }
+
+    75%{
+        width: 24px;
+        height: 24px;
+    }
+}
