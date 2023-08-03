@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.krug{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    position: absolute;
+    animation: rotacija 3s linear infinite;
+}
+
+@keyframes rotacija{
+    50%{
+        width: 900px;
+        height: 900px;
+    }
+}
+
+.div1{
+    z-index: 10;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+img{
+    width: 200px;
+    height: 90%;
+    object-fit: cover;
+}
+
+.form{
+    width: 43%;
+}
+
+#naslov{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: 1px solid rgb(204, 197, 188);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    box-shadow: 3px 5px 5px pink
+}
+
+input{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    border: 2px solid rgb(204,197,188);
+}

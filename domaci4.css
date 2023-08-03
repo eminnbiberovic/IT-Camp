@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: 'Rubik' sans-serif;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.photo{
+    flex: 1;
+    background-image:url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center; 
+    width: 100%;
+}
+
+
+.left{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 100vh;
+    justify-content: center;
+    animation-name: slika;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+h2{
+    color: rgb(79,70,165);
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+h4{
+    color: rgb(169,169,169);
+    font-size: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    margin-left: 40px;
+    border: 2px solid rgb(221,221,221);
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.uput::placeholder{
+    padding: 10px;
+}
+
+.dugme{
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    background: linear-gradient(to right, #de48b5 0%,#0097ff 100%); 
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+}
+
+#a5{
+    margin-left: 290px;
+    margin-top: 20px;
+}
+
+a:link{
+    color: #000;
+}
+
+
+.animacija{
+    animation-name: login;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+
+#a1{
+    animation-delay: 3s;
+}
+
+#a2{
+    animation-delay: 3.1s;
+}
+
+#a3{
+    animation-delay: 3.2s;
+}
+
+#a4{
+    animation-delay: 3.3s;
+}
+
+#a5{
+    animation-delay: 3.4s;
+}
+
+#a6{
+    animation-delay: 3.5s;
+}
+
+@keyframes login{
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slika{
+    0% {
+        opacity: 0;
+        width: 0;
+      }
+    
+      100% {
+        opacity: 1;
+        width: 500px;
+      }
+}
