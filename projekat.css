@@ -1,0 +1,984 @@
+*{
+    font-family: "Roboto", "Arial","sans-serif";
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main{
+    height: 100%;
+    position: relative;
+}
+
+#nicepage_photo{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+
+.nav{
+    display: flex;
+    position: sticky;
+    height: 70px;
+    background-color: rgb(242,242,242);
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+.close{
+    position: absolute;
+    right: 10px;
+}
+
+
+.nav > a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 4px;
+}
+
+.hidden-xs{
+    margin-left: 5px;
+}
+
+.active{
+    background-color: rgb(201,228,249);
+    height: 40px;
+}
+
+.hidden-xs:hover{
+    background-color: rgb(226,240,252);
+    height: 40px;
+    width: 40px;
+}
+
+img{
+    vertical-align: middle;
+    border: 0;
+}
+
+.lunch-business-main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(249,246,238);
+}
+
+a{
+    text-decoration: none;
+}
+
+.ulista{
+    list-style-type: none;
+}
+
+.lista{
+    float: left;
+    padding: 0 25px;
+    text-decoration: none;
+    color: black;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+}
+
+.boja{
+    color: black;
+}
+
+.boja:hover{
+    color: rgb(249,227,155) !important;
+}
+
+.boja:active{
+    color: rgb(244,190,14) !important;
+}
+
+.proba{
+    border: none;
+}
+
+.meni{
+    font-size: 26px;
+}
+
+.meni:hover{
+    color: rgb(158,145,232);
+}
+
+.first-section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.ispod-nav2{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.lunch-business{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+#lunch-business-slika{
+    object-fit:cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.business-lunch{
+    display: flex;
+    position: relative;
+    width: 200px;
+    z-index: 3;
+    left: 22%;
+    top: 100px;
+}
+
+.zeleni-krug{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(153,229,77);
+    border-radius: 50%;
+    color: black;
+    width: 220px;
+    height: 220px;
+    z-index: 3;
+    position: absolute;
+}
+
+#h2-business-lunch{
+    font-family: Montserrat,sans-serif;
+    font-size: 66px;
+    position: absolute;
+    top: 30px;
+}
+
+#h6-business-lunch{
+    position: relative;
+    font-size: 16px;
+    top: 135px;
+    width: 100px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.tekst-ispod-zlnkrug{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    top: 250px;
+    width: 1000px;
+}
+
+#h6-tekst-ispod-zlnkrug{
+    font-size: 18px;
+}
+
+#h1-tekst-ispod-zlnkrug{
+    font-size: 55px;
+    padding-top: 20px;
+    width: 330px;
+    word-wrap:break-word;
+}
+
+#p-tekst-ispod-zlnkrug{
+    font: 15px;
+    margin-top: 30px;
+}
+
+#dugme-tekst-ispod-zlnkrug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241,174,14);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 180px;
+    height: 55px;
+    border-radius: 45px;
+    margin-top: 40px;
+}
+
+#dugme-tekst-ispod-zlnkrug:hover{
+    background-color: rgb(249,222,155);
+}
+
+#freepik{
+    color: rgb(135,220,65);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.second-section{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(26,26,26);
+    font-family: Raleway,sans-serif;
+    color: white;
+    gap: 20px;
+}
+
+.za-tri-slike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    height: 375px;
+    position: relative;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+    text-align: center;
+}
+
+.food-sourcing{
+    position: relative;
+}
+
+#food-sourcing-slika{
+    width: 365px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 50px;
+    filter: brightness(85%);
+}
+
+#h6-food-sourcing{
+    position: relative;
+    top: -200px;
+    font-size: 20px;
+}
+
+.menu-development{
+   position: relative;
+}
+
+#menu-development-slika{
+    width: 365px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 50px;
+    filter: brightness(85%);
+}
+
+#h6-menu-development{
+    position: relative;
+    top: -200px;
+    font-size: 20px;
+}
+
+.restaurant{
+    position: relative   
+}
+
+#restaurant-slika{
+    width: 365px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 50px;
+    filter: brightness(85%);
+}
+
+#h6-restaurant{
+    position: relative;
+    top: -200px;
+    font-size: 20px;
+}
+
+.third-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    background-color: rgb(26,26,26);
+    color: white;
+    font-family: Raleway,sans-serif;
+}
+
+.za-trecu-sekciju{
+    display: flex;
+    width: 1140px;
+    height: 750px;
+}
+
+.beef-with-ginger{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.beef-slika{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#slika-beef{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#broj-dolara{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#h6-beef-with-ginger{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#p-dugi{
+    margin-top: 30px;
+    font-size: 18px;
+    width: 495px;
+    line-height: 1.6;
+}
+
+#p-kratki{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#freepik2{
+    color: rgb(185,160,14);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.fourth-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: rgb(26,26,26);
+    font-family: Raleway,sans-serif;
+}
+
+.za-cetvru-sekciju{
+    display: flex;
+    width: 1140px;
+    height: 500px;
+    position: relative;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+}
+
+.spagete{
+    position: relative;
+}
+
+#spagete-slika{
+    width: 365px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 50px;
+    filter: brightness(85%);
+}
+
+.salata{
+    position: relative;
+}
+
+#salata-slika{
+    width: 365px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 50px;
+    filter: brightness(85%);
+}
+
+.palacinke{
+    position: relative;
+}
+
+#palacinke-slika{
+    width: 365px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 50px;
+    filter: brightness(85%);
+}
+
+.fifth-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+    background-color: rgb(26,26,26);
+    font-family: Raleway,sans-serif;
+}
+
+.za-petu-sekciju{
+    display: flex;
+    width: 1140px;
+    height: 750px;
+    position: relative;
+    margin: auto;
+    padding: 50px 20px;
+    gap: 40px;
+}
+
+.kroasan{
+    display: flex;
+    height: 570px;
+    position: relative;
+}
+
+#kroasan-slika{
+    height: 570px;
+    width: 580px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.pored-kroasana{
+    display: flex;
+    height: 570px;
+    width: 580px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+}   
+
+#h2-kroasan{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#h6-kroasan{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+#p-dugi-kroasan{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+#p-kratki-kroasan
+{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#freepik3{
+    color: rgb(241,160,22);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.sixth-section{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 1600px;
+    background-color: rgb(26,26,26);
+    font-family: Raleway,sans-serif;
+}
+
+.za-sestu-sekciju{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1140px;
+    height: 1600px;
+    position: relative;
+    margin: auto;
+    gap: 40px;
+    align-items: center;
+    color: white;
+}
+
+.pica-salata{
+    display: flex;
+    width: 1140px;
+    height: 650px;
+    gap: 30px;
+}
+
+#pica-slika{
+    width: 490px;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#salads-slika{
+    width: 490px;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.dessert-drinks{
+    display: flex;
+    width: 1140px;
+    height: 600px;
+    gap: 30px;
+}
+
+#dessert-slika{
+    width: 490px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#drinks-slika{
+    width: 490px;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#p-pica-salata{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.hotpica{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.salads{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tekst-za-sestusekciju{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.read-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153,229,77);
+    width: 180px;
+    height: 80px;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+}
+
+.read-more:hover{
+    background-color: rgb(138,225,50);
+}
+
+.seventh-section{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 710px;
+    background-color: rgb(26,26,26);
+    font-family: Raleway,sans-serif;
+}
+
+.za-sedmu-sekciju{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1140px;
+    height: 710px;
+    position: relative;
+    margin: auto;
+    gap: 40px;
+    align-items: center;
+    color: white;
+}
+
+.tekst-pored-salate-sedmasekcija{
+    display: flex;
+    height: 570px;
+    width: 560px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.salata-sedmasekcija{
+    display: flex;
+    height: 570px;
+    width: 560px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#salata-sedmaselcija-slika{
+    height: 570px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#h2-sedmasekcija{
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+#h6-sedmasekcija{
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+#p1-sedmasekcija{
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.eighth-section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    font-family: Raleway,sans-serif;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/vegetables-set-left-black-slate.jpg);
+    background-origin: inherit;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+
+}
+
+.za-osmu-sekciju{
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 750px;
+    position: relative;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 200px;
+    color: white;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+
+.krug-osmasekcija{
+    display: flex;
+    position: relative;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: rgb(153,229,77);
+    color: black;
+}
+
+.tekst-u-krugu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#h2-tekst-u-krugu{
+    font-family: Montserrat,sans-serif;
+    font-size: 66px;
+    position: absolute;
+    top: 45px;
+}
+
+#h6-tekst-u-krugu{
+    position: relative;
+    font-size: 16px;
+    top: 45px;
+    width: 100px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.form-osmasekcija{
+    display: flex;
+    width: 680px;
+    height: 60px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+}
+
+#sumbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 50px;
+    color: black;
+    background-color: rgb(153,229,77);
+    border-radius: 40px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.glavnaforma{
+    display: flex;
+    width: 700px;
+    height: 65px;
+    flex-direction: row;
+}
+
+#sumbit:hover{
+    background-color: rgb(138,225,50);
+}
+
+.ninth-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 430px;
+    background-color: rgb(26,26,26);
+}
+
+.za-devetu-sekciju{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 430px;
+    position: relative;
+    color: white;
+    padding: 30px 0;
+}
+
+.info{
+    display: flex;
+    width: 1140px;
+    height: 310px;
+}
+
+.email-devetasekcija{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 305px;
+    gap: 30px;
+}
+
+#zeleni-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(153,229,77);
+    gap: 20px;
+}
+
+#ourcompany{
+    color: rgb(234,148,23);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.office-devetasekcija{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 380px;
+    height: 305px;
+}
+
+#zeleni-office{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(153,229,77);
+}
+
+.phone-devetasekcija{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 380px;
+    height: 305px;
+}
+
+.zeleni-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(153,229,77);
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    font-size: 14px;
+    background-color: rgb(51,51,51);
+    justify-content: center;
+    align-items: center;
+}
+
+.footerdiv{
+    display: flex;
+    width: 1140px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.tenth-section{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+.za-desetu-sekciju{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 100px;
+    gap: 5px;
+    flex-direction: row;
+}
+
+.a-desetasekcija{
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hidden-sm {
+      display: none !important;
+    }
+  }
+
+  @media (max-width:1008px){
+    .ulista{
+        display: none !important;
+    }
+  }
+
+  @media (min-width: 1009px){
+    .proba{
+        display: none !important;
+    }
+  }
+
+
+  @media (max-width: 150px) and (min-width :1890px){
+    .lunch-business{
+        display: none !important;
+    }
+  }
