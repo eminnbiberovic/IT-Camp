@@ -1,0 +1,287 @@
+*{
+    font-family: "Roboto", "Arial","sans-serif";
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.background{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/1bcbaeca-a392-4231-9fb5-d4386fc0bc34/RS-en-20230807-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-size: cover;
+}
+
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#slika{
+    width: 200px;
+    height: 70px;
+}
+
+.desnideo{
+    display: flex;
+    gap: 20px;
+}
+
+select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    border: 0.2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+}
+
+#signin{
+    display: flex;
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#signin:hover{
+    background-color: rgb(193,17,25);
+}
+
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sredina{
+    display: flex;
+    width: 900px;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    font-size: 23px;
+}
+
+h3{
+    font-size: 21px;
+}
+
+.inputdeo{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 50px;
+    gap: 15px;
+}
+
+input{
+    display: flex;
+    width: 300px;
+    height: 45px;
+    background: none;
+    border: 0.5px solid white;
+    border-radius: 8px;
+    padding: 0 20px;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 47px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+@media (max-width: 960px){
+    h1{
+        font-size: 23px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 650px){
+    .input-section{
+        display: flex;
+        width: 300px;
+        height: 85px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 540px){
+    .main{
+        word-break: break-all;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pozadina{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/1bcbaeca-a392-4231-9fb5-d4386fc0bc34/RS-en-20230807-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-origin: inherit;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.netflixlogo{
+    display: flex;
+    width: 300px;
+    height: 70px;
+}
+
+#slika{
+    width: 300px;
+    height: 70px;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.desnideo{
+    display: flex;
+    float: right;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+.selekt{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    background-color: red;
+    height: 40px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+#signin:hover{
+    background-color: brown;
+}
+
+#logo-nt{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.sredina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1140px;
+    height: 800px;
+    color: white;
+    margin: auto;
+    margin-top: -150px;
+}
+
+input{
+    background: none;
+    width: 400px;
+    height: 60px;
+    border: 1px solid white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: red;
+    width: 150px;
+    height: 60px;
+    border: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 21px;
+    border-radius: 5px;
+} */
