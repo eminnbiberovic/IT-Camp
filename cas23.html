@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="cas23.css">
+</head>
+<body>
+    <div class="main">
+    <div class="gornjideo">
+        <div class="prvideo">
+            <img id="spotify-slika" src="https://th.bing.com/th/id/R.4590a3717d14ead42fb470c1fd6fed89?rik=BMERK7y0tB93qg&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f08%2fSpotify_logo_black.png&ehk=ukp32dWzYxTyMWEffWsszPEKTVa1o%2bn0SfH2qAACF6M%3d&risl=&pid=ImgRaw&r=0">
+        </div>
+
+        <h2 style="font-size: 30px;">Sign up for free to start listening.</h2>
+
+        <a class="signup-facebook" href="https://accounts.spotify.com/sr/login?method=facebook&continue=https%3A%2F%2Fopen.spotify.com%2F%3Fflow_ctx%3Dbd110efa-8bbb-4a5f-9e7a-6c5d82d866f8%253A1692391785&intent=signup&creation_point=https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D1fa2bd74362f0e2a80ce95b52df73da5%26device%3Ddesktop&flow_ctx=bd110efa-8bbb-4a5f-9e7a-6c5d82d866f8%3A1692391785">
+            <img id="facebook-slika" src="https://th.bing.com/th/id/R.6c3ea8b640f61035021c20dd5dcd37fa?rik=31mzN9qX%2bAR9pA&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f377-3776210_facebook-logo-vector-logovectornet-logo-facebook-2019-png.png&ehk=feGZ0i4yauVvpdtQu%2bTAeLkp%2bpCt2QN1zx7GrMwtQuA%3d&risl=&pid=ImgRaw&r=0">
+            <p>Sign up with Facebook</p>
+        </a>
+
+        <a class="signup-google" href="https://accounts.spotify.com/sr/login?method=google&continue=https%3A%2F%2Fopen.spotify.com%2F%3Fflow_ctx%3D75ebc5a6-651e-4c97-9e62-c6358b9666e9%253A1692591664&intent=signup&creation_point=https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D16a177dc-e6f1-4807-9c58-e021683ed3a2%26device%3Ddesktop&flow_ctx=75ebc5a6-651e-4c97-9e62-c6358b9666e9%3A1692591664&_gl=1*108lne*_gcl_au*MjA1MzU0MzkwOS4xNjkxNTI2NDgy">
+            <img id="google-slika" src="https://th.bing.com/th/id/R.55d3560e93ba6e8e604f43b0a089c3c3?rik=ZsCpRaVUmCIpLQ&pid=ImgRaw&r=0">
+            <p style="color: grey;">Sign up with Google</p>
+        </a>
+
+        <div class="hrdiv">
+            <hr> or <hr>
+        </div>
+
+    </div>
+
+        <form>
+            <h2 style="font-size: 20px;">Sign up with your email address</h2>
+
+        <div class="formdiv">
+            <div class="email-input">
+                <label for="email">What's your email address?</label>
+                <input id="input-email" type="email" name="email" placeholder="Enter your email.">
+            </div>
+
+            <div class="password-input">
+                <label for="password">Create a password</label>
+                <input id="input-password" type="password" name="password" placeholder="Create a password.">
+            </div>
+
+            <div class="profile-name-input">
+                <label for="profile-name">What should we call you?</label>
+                <input id="input-profile-name" type="text" name="profile-name" placeholder="Enter a profile name">
+            </div>
+
+            <div class="date-of-birth">
+                <label>What's your date of birth?</label>
+
+                <div class="datum-rodjenja">
+                    <div class="dan-input">
+                        <label for="dan">Day</label>
+                        <input id="input-dan" type="text" name="dan" placeholder="DD">
+                    </div>
+
+                    <div class="mesec-input">
+                        <label for="mesec">Month</label>
+                        <input id="input-mesec" type="month" name="mesec" placeholder="Month"> 
+                    </div>
+
+                    <div class="godina-input">
+                        <label for="godina">Year</label>
+                        <input id="input-godina" type="text" name="godina" placeholder="YYYY">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div class="pol">
+                    <h3 style="font-size: 17px;">What's your gender?</h3>
+
+                    <div class="za-pol">
+                        <div class="male">
+                            <input type="radio" name="male" value="male">
+                            <label class="za-label" for="male">Male</label>
+                        </div>
+
+                        <div class="female">
+                            <input type="radio" name="female" value="female">
+                            <label class="za-label" for="female">Female</label>
+                        </div>
+
+                        <div class="non-b">
+                            <input type="radio" name="non-b" value="non-b">
+                            <label class="za-label" for="non-b">Non-binary</label>
+                        </div>
+
+                        <div class="za-other">
+                            <input type="radio" name="other" value="other">
+                            <label class="za-label" for="other">Other</label>
+                        </div>
+
+                        <div class="prefer-not-to-say">
+                            <input type="radio" name="not-t-s" value="not-t-s">
+                            <label class="za-label" for="not-t-s">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zadnji-deo">
+                        <p style="font-size: 0.6875rem;">By clicking on sign-up, you agree to Spotify's<a style="color: rgb(29,185,84);" href="https://www.spotify.com/rs-sr/legal/end-user-agreement/"> Terms and Conditions of Use.</a></p>
+                        <p style="font-size: 0.6875rem; width: 350px;">To learn more about how Spotify collects, uses, shares and protects your personal data, please see<a style="color: rgb(29,185,84);" href="https://www.spotify.com/rs-sr/legal/privacy-policy/"> Spotify's Privacy Policy.</a></p>
+                    <button id="sign-up-button" type="submit">Sign up</button>
+                    <p>Have an account?<a style="color: rgb(29,185,84);" href="https://accounts.spotify.com/?creation_point=https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D16a177dc-e6f1-4807-9c58-e021683ed3a2%26device%3Ddesktop&continue=https%3A%2F%2Fopen.spotify.com%2F%3Fflow_ctx%3D67ca9da4-da69-47b8-ba68-f3b4f34e59be%253A1692596454&flow_ctx=67ca9da4-da69-47b8-ba68-f3b4f34e59be%3A1692596454&_gl=1*1ocbsre*_gcl_au*MjA1MzU0MzkwOS4xNjkxNTI2NDgy"> Log in</a>.</p>
+                </div>
+        </form>
+    </div>
+
+</body>
+</html>

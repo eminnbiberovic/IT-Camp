@@ -1,0 +1,329 @@
+*{
+    font-family: "Roboto", "Arial","sans-serif";
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    
+}
+
+.gornjideo{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.prvideo{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+#spotify-slika{
+    width: 300px;
+    height: 50px;
+}
+
+.signup-facebook{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64,90,147);
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+}
+
+.signup-facebook:hover{
+    background-color: rgb(56,79,129);
+    width: 370px;
+    height: 52px;
+}
+
+#facebook-slika{
+    width: 30px;
+    height: 25px;
+}
+
+.signup-google{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.signup-google:hover{
+    width: 370px;
+    height: 52px;
+}
+
+#google-slika{
+    width: 30px;
+    height: 25px;
+}
+
+.hrdiv{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+hr{
+    display: flex;
+    flex-direction: row;
+    width: 150px
+}
+
+.formdiv{
+    display: flex;
+    height: 450px;
+    width: 500px;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    flex-direction: column;
+}
+
+.email-input{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#input-email{
+    display: flex;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.password-input{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#input-password{
+    display: flex;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.profile-name-input{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#input-profile-name{
+    display: flex;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.date-of-birth{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 120px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.datum-rodjenja{
+    display: flex;
+    width: 500px;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.dan-input{
+    display: flex;
+    width: 91px;
+    height: 80px;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.mesec-input{
+    display: flex;
+    width: 201px;
+    height: 80px;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.godina-input{
+    display: flex;
+    width: 111px;
+    height: 80px;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+#input-godina{
+    display: flex;
+    width: 110px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid rgb(135,135,135);
+}
+
+#input-mesec{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid rgb(135,135,135);
+}
+
+#input-dan{
+    display: flex;
+    width: 90px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid rgb(135,135,135);
+}
+
+.pol{
+    display: flex;
+    width: 450px;
+    height: 115px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+.za-pol{
+    display: flex;
+    width: 450px;
+    height: 65px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.za-label{
+    display: flex;
+    align-items: center;
+}
+
+.male{
+    display: flex;
+    width: 84px;
+    height: 32px;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.female{
+    display: flex;
+    width: 98px;
+    height: 32px;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.non-b{
+    display: flex;
+    width: 123px;
+    height: 32px;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.za-other{
+    display: flex;
+    width: 88px;
+    height: 32px;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.prefer-not-to-say{
+    display: flex;
+    width: 155px;
+    height: 32px;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.zadnji-deo{
+    display: flex;
+    width: 550px;
+    gap: 15px;
+    height: 180px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign-up-button{
+    display: flex;
+    width: 160px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30,215,96);
+    border: none;
+    border-radius: 40px;
+    color: black;
+    font-size: 21px;
+}
+
+#sign-up-button:hover{
+    background-color: rgb(31,223,100);
+    width: 170px;
+    height: 59px;
+}
