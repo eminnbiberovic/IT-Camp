@@ -280,3 +280,76 @@
 // }
 
 // console.log("suma brojeva je: ",s);
+
+
+
+////////////////////// 4.19 zadatak /////////////////
+
+// let n = parseFloat(prompt("unesi broj n"))
+
+// for(let i=1; i<=n; i++){
+//   if(n % i === 0){
+//     console.log("delioci:", i);
+//   }
+// }
+
+
+//////////////////////// 4.20 zadatak ///////////////////////
+
+// let n = parseFloat(prompt("unesi broj n"))
+
+// let suma = 0;
+
+// for(let i=1; i<n; i++){
+//   if(n % i === 0){
+//    suma += i; 
+//   }
+// }
+// if(suma === n){
+//   console.log("broj je savrsen", n);
+// }
+// else{
+//   console.log("broj nije savrsen", n);
+// }
+
+
+///////////////////// 4.21 zadatak ////////////////////
+
+// let n = parseFloat(prompt("unesi broj ucenika n"))
+
+// let negativne=0;
+// let suma=0;
+// let prosecna=0;
+
+// for(let i = 1; i<=n; i++){
+//    let ocena = parseFloat(prompt("Unesite ocene ucinika do 5|||:", i))
+//    suma += ocena;
+
+//    if(ocena === 1){
+//     negativne++;
+//    }
+   
+// }
+// prosecna = suma/n;
+
+// console.log("prosecna ocena ucenika:", prosecna);
+// console.log("negativnih ocena ima:", negativne);
+
+
+////////////////////////// 4.22 zadatak ///////////////////////
+
+// let n = parseFloat(prompt("unesi broj n"))
+
+// let h;
+// let m;
+// let s;
+
+// for(h=0; h<=23;h++){
+//   for(m=0; m<=59; m++){
+//     for(s=0; s<=59; s++){
+//       if(n === ()){
+//         console.log("sat, minut , sekunda");
+//       }
+//     }
+//   }
+// }
